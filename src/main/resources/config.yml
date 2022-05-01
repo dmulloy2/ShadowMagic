@@ -1,0 +1,36 @@
+########################################################################################
+#+------------------------------------------------------------------------------------+#
+#|                                                                                    |#
+#|                             Necessities Configuration                              |#
+#|                                   By: dmulloy2                                     |#
+#|                                                                                    |#
+#+------------------------------------------------------------------------------------+#
+########################################################################################
+
+# This is the main configuration file for Necessities
+# It follows standard YAML procedure
+# Input: boolean - true/false, String - "text", integer - number
+
+##############################################
+#+------------------------------------------+#
+#|           Global Configuration           |#
+#+------------------------------------------+#
+##############################################
+
+# Extra output to console (boolean)
+debug: false
+
+# Auto Save
+# enabled - boolean
+# interval - integer (in minutes)
+autoSave:
+  enabled: true
+  interval: 31
+
+# Meta Charges
+# Per-character
+metaCharges:
+  name: 100
+  lore: 100
+
+classChangeMessage: "&eYou have been moved to class &b{0}&e!"

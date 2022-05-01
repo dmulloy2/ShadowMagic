@@ -1,0 +1,71 @@
+name: ShadowMagic
+main: net.dmulloy2.shadowmagic.ShadowMagic
+version: ${project.version}
+author: dmulloy2
+softdepend: [Vault]
+commands:
+  shadowmagic:
+    description: ShadowMagic root command
+    usage: /<command> <args>
+    aliases: [smagic, sm]
+  name:
+    description: Set the name of an item
+    usage: /<command> <name>
+  lore:
+    description: Set the lore of an item
+    usage: /<command> <lore>
+  power:
+    description: Activate a command-based power
+    usage: /<command> <power>
+    aliases: [p]
+permissions:
+  shadowmagic.admin:
+    description: Permissions meant for admins
+    default: op
+    children:
+      shadowmagic.cmd.chest: true
+      shadowmagic.cmd.enchant: true
+      shadowmagic.cmd.lore: true
+      shadowmagic.cmd.name: true
+      shadowmagic.cmd.reload: true
+      shadowmagic.player: true
+  shadowmagic.player:
+    description: Permissions meant for players
+    default: true
+    children:
+      shadowmagic.cmd.power: true
+      shadowmagic.cmd.powers: true
+      shadowmagic.cmd.version: true
+  shadowmagic.cmd.chest:
+    description: Allows access to '/sm chest'
+    default: false
+  shadowmagic.cmd.chest.see:
+    description: Allows looking into others' chests
+    default: false
+  shadowmagic.cmd.enchant:
+    description: Allows access to '/sm enchant'
+    default: false
+  shadowmagic.cmd.lore:
+    description: Allows access to '/lore'
+    default: false
+  shadowmagic.cmd.lore.free:
+    description: Allows free lore changing
+    default: false
+  shadowmagic.cmd.name:
+    description: Allows access to '/name'
+    default: false
+  shadowmagic.cmd.name.free:
+    description: Allows free name changing
+    default: false
+  shadowmagic.cmd.power:
+    description: Allows access to '/power'
+    default: true
+  shadowmagic.cmd.reload:
+    description: Allows access to '/sm reload'
+    default: false
+  shadowmagic.cmd.version:
+    description: Allows access to '/sm version'
+    default: false
+  shadowmagic.cmd.xp:
+    description: Allows access to '/sm xp'
+    default: false

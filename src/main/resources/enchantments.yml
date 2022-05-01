@@ -1,0 +1,55 @@
+enchantments:
+  LifeSteal:
+    class: .LifeSteal
+    id: 3073
+    item: SKULL_ITEM:1, 1
+    display: '&5Life Steal'
+    lore:
+    - '&5Steal life from your opponent!'
+    message: '&3You have stolen %h hearts from %p!'
+    hearts: 1
+    chance: 0
+  Freeze:
+    class: .TriggeredPotionEffect
+    id: 3074
+    item: ICE, 1
+    display: '&bFreeze'
+    lore:
+    - '&bImmobilize your opponent!'
+    type: SLOW
+    message: '&3You have frozen %p!'
+    duration: 1
+    potency: 20
+    chance: 1000
+  SoulBind:
+    class: .SoulBind
+    id: 3075
+    item: BEDROCK, 1
+    display: '&4Soul Bind'
+    lore:
+    - '&4Keep your item on death!'
+    message: '&3Your item has been recovered!'
+  Blindness:
+    class: .TriggeredPotionEffect
+    id: 3076
+    item: NETHER_STAR, 1
+    display: '&8Blindness'
+    lore:
+    - '&8Blind your opponent!'
+    type: BLINDNESS
+    message: '&3You have blinded %p!'
+    duration: 1
+    potency: 1
+    chance: 1000
+  Poison:
+    class: .TriggeredPotionEffect
+    id: 3077
+    item: SPIDER_EYE, 1
+    display: '&2Poison'
+    lore:
+    - '&2Poison your opponent!'
+    type: POISON
+    message: '&3You have poisoned %p!'
+    duration: 1
+    potency: 1
+    chance: 1000

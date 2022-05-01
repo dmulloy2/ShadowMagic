@@ -1,0 +1,20 @@
+classes:
+  Test Class 1:
+    item: STONE, 1
+    display: '&fTest Class 1'
+    lore:
+    - This is a test class
+    cost: 0
+    powers:
+    - Poison 3
+    - Frost 3
+  Test Class 3:
+    item: DIRT, 1
+    display: '&fTest Class 1'
+    lore:
+    - This is also a test class
+    cost: 100
+    powers:
+    - Blindness 1
+    - Poison 3
+    - Frost 3

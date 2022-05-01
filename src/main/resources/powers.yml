@@ -1,0 +1,417 @@
+powers:
+  Frost 2:
+    class: .TriggeredPotionEffect
+    item: ICE, 2
+    display: '&bFrost 2'
+    lore:
+    - '&bSlow your opponent!'
+    type: SLOW
+    message: '&3You have slowed %p down!'
+    duration: 5
+    cooldown: 10
+    potency: 1
+    chance: 30
+  Frost 3:
+    class: .TriggeredPotionEffect
+    item: ICE, 3
+    display: '&bFrost 3'
+    lore:
+    - '&bSlow your opponent!'
+    type: SLOW
+    message: '&3You have slowed %p down!'
+    duration: 7
+    cooldown: 15
+    potency: 2
+    chance: 60
+  Frost 1:
+    class: .TriggeredPotionEffect
+    item: ICE, 1
+    display: '&bFrost 1'
+    lore:
+    - '&bSlow your opponent!'
+    type: SLOW
+    message: '&3You have slowed %p down!'
+    duration: 3
+    cooldown: 7
+    potency: 1
+    chance: 10
+  Poison 1:
+    class: .TriggeredPotionEffect
+    item: SPIDER_EYE, 1
+    display: '&2Poison 1'
+    lore:
+    - '&2Poison your opponent!'
+    type: POISON
+    message: '&3You have poisoned %p!'
+    duration: 3
+    cooldown: 7
+    potency: 2
+    chance: 10
+  Poison 2:
+    class: .TriggeredPotionEffect
+    item: SPIDER_EYE, 2
+    display: '&2Poison 2'
+    lore:
+    - '&2Poison your opponent!'
+    type: POISON
+    message: '&3You have poisoned %p!'
+    duration: 5
+    cooldown: 10
+    potency: 3
+    chance: 30
+  Poison 3:
+    class: .TriggeredPotionEffect
+    item: SPIDER_EYE, 3
+    display: '&2Poison 3'
+    lore:
+    - '&2Poison your opponent!'
+    type: POISON
+    message: '&3You have poisoned %p!'
+    duration: 8
+    cooldown: 25
+    potency: 4
+    chance: 60
+  Blindness 1:
+    class: .TriggeredPotionEffect
+    item: NETHER_STAR, 1
+    display: '&5Blindness 1'
+    lore:
+    - '&5Blind your opponent!'
+    type: BLINDNESS
+    message: '&3You have blinded %p!'
+    duration: 3
+    cooldown: 7
+    potency: 1
+    chance: 10
+  Blindness 2:
+    class: .TriggeredPotionEffect
+    item: NETHER_STAR, 2
+    display: '&5Blindness 2'
+    lore:
+    - '&5Blind your opponent!'
+    type: BLINDNESS
+    message: '&3You have blinded %p!'
+    duration: 5
+    cooldown: 10
+    potency: 1
+    chance: 30
+  Blindness 3:
+    class: .TriggeredPotionEffect
+    item: NETHER_STAR, 3
+    display: '&5Blindness 3'
+    lore:
+    - '&5Blind your opponent!'
+    type: BLINDNESS
+    message: '&3You have blinded %p!'
+    duration: 7
+    cooldown: 15
+    potency: 2
+    chance: 60
+  Confusion 1:
+    class: .TriggeredPotionEffect
+    item: POTION:8268, 1
+    display: '&2Confusion 1'
+    lore:
+    - '&2Confuses your opponent when hit!'
+    type: CONFUSION
+    message: '&3You have confused %p!'
+    duration: 10
+    cooldown: 15
+    potency: 4
+    chance: 10
+  Confusion 2:
+    class: .TriggeredPotionEffect
+    item: POTION:8268, 2
+    display: '&2Confusion 2'
+    lore:
+    - '&2Confuses your opponent when hit!'
+    type: CONFUSION
+    message: '&3You have confused %p!'
+    duration: 14
+    cooldown: 25
+    potency: 6
+    chance: 30
+  Confusion 3:
+    class: .TriggeredPotionEffect
+    item: POTION:8268, 3
+    display: '&2Confusion 3'
+    lore:
+    - '&2Confuses your opponent when hit!'
+    type: CONFUSION
+    message: '&3You have confused %p!'
+    duration: 16
+    cooldown: 45
+    potency: 10
+    chance: 60
+  LifeSteal 1:
+    class: .LifeSteal
+    item: SKULL_ITEM:1, 1
+    display: '&5Life Steal 1'
+    lore:
+    - '&5Steals life from your opponent!'
+    message: '&3You have stolen %h hearts from %p!'
+    cooldown: 60
+    percentage: 10
+  LifeSteal 2:
+    class: .LifeSteal
+    item: SKULL_ITEM:1, 2
+    display: '&5Life Steal 2'
+    lore:
+    - '&5Steals life from your opponent!'
+    message: '&3You have stolen %h hearts from %p!'
+    cooldown: 90
+    percentage: 25
+  LifeSteal 3:
+    class: .LifeSteal
+    item: SKULL_ITEM:1, 3
+    display: '&5Life Steal 3'
+    lore:
+    - '&5Steals life from your opponent!'
+    message: '&3You have stolen %h hearts from %p!'
+    cooldown: 120
+    percentage: 40
+  JumpBoost 1:
+    class: .ActivatedPotionEffect
+    item: FEATHER, 1
+    display: '&fJumpBoost 1'
+    lore:
+    - '&fApplies jump boost to your player!'
+    type: JUMP
+    message: '&3You now jump higher!'
+    duration: 10
+    cooldown: 20
+    potency: 3
+  JumpBoost 2:
+    class: .ActivatedPotionEffect
+    item: FEATHER, 2
+    display: '&fJumpBoost 2'
+    lore:
+    - '&fApplies jump boost to your player!'
+    type: JUMP
+    message: '&3You now jump higher!'
+    duration: 15
+    cooldown: 25
+    potency: 2
+  JumpBoost 3:
+    class: .ActivatedPotionEffect
+    item: FEATHER, 3
+    display: '&fJumpBoost 3'
+    lore:
+    - '&fApplies jump boost to your player!'
+    type: JUMP
+    message: '&3You now jump higher!'
+    duration: 25
+    cooldown: 30
+    potency: 3
+  Speed 1:
+    class: .ActivatedPotionEffect
+    item: SUGAR, 1
+    display: '&fSpeed 1'
+    lore:
+    - '&fApplies speed boost to your player!'
+    type: SPEED
+    message: '&3You now run faster!'
+    duration: 10
+    cooldown: 15
+    potency: 1
+  Speed 2:
+    class: .ActivatedPotionEffect
+    item: SUGAR, 2
+    display: '&fSpeed 2'
+    lore:
+    - '&fApplies speed boost to your player!'
+    type: SPEED
+    message: '&3You now run faster!'
+    duration: 15
+    cooldown: 20
+    potency: 2
+  Speed 3:
+    class: .ActivatedPotionEffect
+    item: SUGAR, 3
+    display: '&fSpeed 3'
+    lore:
+    - '&fApplies speed boost to your player!'
+    type: SPEED
+    message: '&3You now run faster!'
+    duration: 30
+    cooldown: 30
+    potency: 3
+  Beserk 1:
+    class: .ActivatedPotionEffect
+    item: DIAMOND_SWORD, 1
+    display: '&4Beserk 1'
+    lore:
+    - '&4Increases damage done!'
+    type: INCREASE_DAMAGE
+    message: '&3You hit harder!'
+    duration: 5
+    cooldown: 30
+    potency: 1
+  Beserk 2:
+    class: .ActivatedPotionEffect
+    item: DIAMOND_SWORD, 2
+    display: '&4Beserk 2'
+    lore:
+    - '&4Increases damage done!'
+    type: INCREASE_DAMAGE
+    message: '&3You hit harder!'
+    duration: 8
+    cooldown: 45
+    potency: 2
+  Beserk 3:
+    class: .ActivatedPotionEffect
+    item: DIAMOND_SWORD, 3
+    display: '&4Beserk 3'
+    lore:
+    - '&4Increases damage done!'
+    type: INCREASE_DAMAGE
+    message: '&3You hit harder!'
+    duration: 12
+    cooldown: 60
+    potency: 3
+  Explosion 1:
+    class: .Explosion
+    item: TNT, 1
+    display: '&4Explosion 1'
+    lore:
+    - '&4Creates an explosion on impact!'
+    type: INCREASE_DAMAGE
+    message: '&3You hit harder!'
+    damage: 1
+    cooldown: 15
+  Explosion 2:
+    class: .Explosion
+    item: TNT, 2
+    display: '&4Explosion 2'
+    lore:
+    - '&4Creates an explosion on impact!'
+    type: INCREASE_DAMAGE
+    message: '&3You hit harder!'
+    damage: 2
+    cooldown: 20
+  Defense 1:
+    class: .TriggeredPotionEffect
+    item: DIAMOND_CHESTPLATE, 1
+    display: '&1Defense 1'
+    lore:
+    - '&1Reduces the damage you will take!'
+    type: DAMAGE_RESISTANCE
+    message: '&3You raise your defenses!'
+    duration: 7
+    cooldown: 10
+    potency: 1
+    chance: 10
+  Defense 2:
+    class: .TriggeredPotionEffect
+    item: DIAMOND_CHESTPLATE, 2
+    display: '&1Defense 2'
+    lore:
+    - '&1Reduces the damage you will take!'
+    type: DAMAGE_RESISTANCE
+    message: '&3You raise your defenses!'
+    duration: 14
+    cooldown: 20
+    potency: 2
+    chance: 30
+  Freeze 1:
+    class: .TriggeredPotionEffect
+    item: ICE, 1
+    display: '&bFreeze 1'
+    lore:
+    - '&bFreezes your opponent!'
+    type: SLOW
+    message: '&3You freeze your opponent!'
+    potency: 20
+    duration: 3
+    cooldown: 20
+    chance: 10
+  Regeneration 1:
+    class: .ActivatedPotionEffect
+    item: POTION:8193, 1
+    display: '&dRegeneration 1'
+    lore:
+    - '&dRegenerate your health!'
+    type: REGENERATION
+    message: '&3You regenerate your health!'
+    duration: 7
+    cooldown: 30
+    potency: 1
+  Regeneration 2:
+    class: .ActivatedPotionEffect
+    item: POTION:8193, 2
+    display: '&dRegeneration 2'
+    lore:
+    - '&dRegenerate your health!'
+    type: REGENERATION
+    message: '&3You regenerate your health!'
+    duration: 15
+    cooldown: 50
+    potency: 2
+  Invisibility 1:
+    class: .ActivatedPotionEffect
+    item: GOLDEN_CARROT, 1
+    display: '&dInvisibility 1'
+    lore:
+    - '&bApplies invisibility'
+    type: INVISIBILITY
+    message: '&3You become invisible!'
+    duration: 30
+    cooldown: 25
+  Invisibility 2:
+    class: .ActivatedPotionEffect
+    item: GOLDEN_CARROT, 2
+    display: '&dInvisibility 2'
+    lore:
+    - '&bApplies invisibility'
+    type: INVISIBILITY
+    message: '&3You become invisible!'
+    duration: 45
+    cooldown: 35
+  Weakness 1:
+    class: .TriggeredPotionEffect
+    item: ROTTEN_FLESH, 1
+    display: '&5Weakness'
+    lore:
+    - '&5Weakens your opponent when hit!'
+    type: WEAKNESS
+    message: '&3You weaken %p!'
+    duration: 5
+    cooldown: 15
+    potency: 1
+    chance: 10
+  Weakness 2:
+    class: .TriggeredPotionEffect
+    item: ROTTEN_FLESH, 2
+    display: '&5Weakness'
+    lore:
+    - '&5Weakens your opponent when hit!'
+    type: WEAKNESS
+    message: '&3You weaken %p!'
+    duration: 7
+    cooldown: 25
+    potency: 2
+    chance: 30
+  Slowness 1:
+    class: .TriggeredPotionEffect
+    item: STRING, 1
+    display: '&fSlowness'
+    lore:
+    - '&fSlows your opponent when hit!'
+    type: SLOW
+    message: '&3You slow %p down!'
+    duration: 3
+    cooldown: 7
+    potency: 1
+    chance: 10
+  Slowness 2:
+    class: .TriggeredPotionEffect
+    item: STRING, 2
+    display: '&fSlowness'
+    lore:
+    - '&fSlows your opponent when hit!'
+    type: SLOW
+    message: '&3You slow %p down!'
+    duration: 5
+    cooldown: 10
+    potency: 2
+    chance: 30
